@@ -20,17 +20,18 @@
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="index.html">Inicio</a></li>
-							<li class="active"><a href="regalos-para-ella.html">Regalos para Ella</a></li>
+							<li class="active"><a href="regalos-para-el.html">Regalos para Ella</a></li>
 							<li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
-							<ul class="icons">
+						</ul>
+						<ul class="icons">
 							
 
-								<li><a href="https://www.instagram.com/dtopiast/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								</a></li>
-								<li><a id="cart-button" class="icon fa-shopping-cart">
-									<span id="cart-count">0</span></a>
-								
-							</ul>
+							<li><a href="https://www.instagram.com/dtopiast/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							</a></li>
+							<li><a id="cart-button" class="icon fa-shopping-cart">
+								<span id="cart-count">0</span></a>
+							
+						</ul>
 					</nav>
 
 					<div id="main">
@@ -52,7 +53,7 @@
 									<p>¡Descubre la ternura y el encanto de los peluches de MyMelody! Estos adorables peluches son perfectos para los fanáticos de MyMelody y para aquellos que aman los juguetes suaves y abrazables. Con su diseño detallado y encantador, estos meluches se convertirán en tus compañeros favoritos. Son ideales tanto para niños como para adultos que buscan un toque de dulzura en su día a día.
 								</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Comprar</a></li>
+										<li><a onclick="addToCart(2,`Peluches de MyMelody`, 330)" class="button">Comprar</a></li>
 									</ul>
 								</article>
 								<article>
@@ -60,10 +61,10 @@
 										<h2>Peluches de Cinnamoroll</h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/articles/1561590152185547571.jpg" alt="" /></a>
-
+									<span class="price">$330</span>
 									<p>¡Descubre la ternura y el encanto de los peluches de Cinnamoroll! Estos adorables peluches son perfectos para los fanáticos de MyMelody y para aquellos que aman los juguetes suaves y abrazables. Con su diseño detallado y encantador, estos meluches se convertirán en tus compañeros favoritos. Son ideales tanto para niños como para adultos que buscan un toque de dulzura en su día a día.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Comprar</a></li>
+										<li><a onclick="addToCart(2,`Peluches de Cinnamoroll`, 330)" class="button">Comprar</a></li>
 									</ul>
 								</article>
 								<article>
@@ -71,14 +72,12 @@
 										<h2>Pulsera de sanrio</h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/articles/-1282648757236119085.jpg" alt="" /></a>
-									<span class="price">$159.99</span>
-
-									<p></p>
+									<span class="price">$130.99</span>
+									<p>Ideal para coleecionar y verse de una forma genial, contando con todos los personajes importantes de sanrio.</p>
 									<ul class="actions special">
 										<li><a onclick="addToCart(3,`Pulsera de sanrio`, 159)" class="button">Comprar</a></li>
 									</ul>
 								</article>
-								<!-- Añade más artículos según sea necesario -->
 							</div>
 						</section>
 					
@@ -97,13 +96,11 @@
 
                         
 
-				<!-- Copyright -->
 						<ul><li>&copy; LOUIIS MARKET</li></ul>
 					</div>
 
 			</div>
 
-		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -111,6 +108,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/cart.js"></script>
 
 	</body>
 </html>
